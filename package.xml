@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>sysml2owl</name>
+  <version>0.2.0</version>
+  <description>Generic SysML v2 subset to OWL/RDF translator for ROS 2 Jazzy.</description>
+  <maintainer email="e.aguado.glez@gmail.com">Esther Aguado</maintainer>
+  <license>Apache-2.0</license>
+  
+  <buildtool_depend>ament_python</buildtool_depend>
+  
+  <exec_depend>python3</exec_depend>
+  <exec_depend>python3-rdflib</exec_depend>
+  <export><build_type>ament_python</build_type></export>
+</package>
